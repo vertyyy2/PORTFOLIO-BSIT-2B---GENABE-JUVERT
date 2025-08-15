@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Frame 1 */
+.frame1 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+.frame1 .text {
+    flex: 1;
+}
+.frame1 .image img {
+    width: 250px;
+    border-radius: 10px;
+}
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background: #555;
+}
+
+/* Frame 2 */
+.frame2 {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background: #fff;
+}
+.frame2 .box {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Frame 3 */
+.frame3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    background: #f4f4f4;
+}
+.frame3 .card {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.frame3 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Frame 4 */
+.frame4 {
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+}
+.contact-icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #555;
+}
